@@ -1,3 +1,3 @@
 {
-  "localDB": "mongodb://localhost:27017/E-commerce"
+  "localDB": "mongodb+srv://Todo-App:todo-app@cluster0.gfznlld.mongodb.net/?retryWrites=true&w=majority"
 }
