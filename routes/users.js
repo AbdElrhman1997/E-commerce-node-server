@@ -1,8 +1,8 @@
-const User = require("../Models/user");
+const User = require("../models/user");
 const bcrypt = require("bcrypt");
 const express = require("express");
 const jwt = require("jsonwebtoken");
-const Token = require("../Models/token");
+const Token = require("../models/token");
 const router = express.Router();
 
 router.get("/", async (req, res, next) => {
